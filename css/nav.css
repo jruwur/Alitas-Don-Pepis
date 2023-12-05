@@ -1,0 +1,57 @@
+/* Add this to your existing CSS or create a new CSS file */
+
+.navbar {
+    background-color: rgb(235, 138, 68); /* Orange background color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Space the logo and nav links apart */
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    display: inline-block; /* Display links in a row */
+    margin-left: 15px; /* Add margin to space out links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Add space between links */
+.nav-links li + li {
+    margin-left: 20px; /* Adjust the spacing between links */
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo,
+    .nav-links {
+        margin-bottom: 10px; /* Add margin to space out the logo and links in a column */
+    }
+
+    .nav-links li {
+        display: block; /* Display links in a column on small screens */
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

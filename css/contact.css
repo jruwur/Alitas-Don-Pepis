@@ -1,0 +1,79 @@
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contact-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.image-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.text-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px; /* Add margin for spacing */
+}
+
+.text-section h3 {
+    color: #333;
+}
+
+.text-section p {
+    color: #666;
+}
+
+
+
+.geolocation-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+}
+
+.geolocation-section h2 {
+    color: #333;
+}
+
+.geolocation-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#get-location-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#get-location-btn:hover {
+    background-color: #45a049;
+}

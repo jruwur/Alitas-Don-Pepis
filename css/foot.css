@@ -1,0 +1,45 @@
+/* Add this to your existing CSS or create a new CSS file */
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(235, 138, 68); /* Orange color */
+    padding: 20px; /* Add some padding for better aesthetics */
+}
+
+.footer-section {
+    text-align: center;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    color: #fff; /* White text color for better contrast on the colored background */
+}
+
+.footer-section.social-media {
+    order: 1; /* Change the order for social media section on smaller screens */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+    }
+}

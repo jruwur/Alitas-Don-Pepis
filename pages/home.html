@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">       
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="icon" type="image/x-icon" href="../../logo alitas.ico">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/foot.css" />
+    <link rel="stylesheet" href="../css/cards.css">
+        <title>Home - Alitas Pepis</title>
+    </head>
+    <body >      
+        <nav class="navbar">
+            <div class="logo">Alitas Pepis - Home</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button onclick="sesion()" class="btn"><img src="../img/icons8-user-30.png" alt=""></button>
+    </nav>
+    
+        <div class="container" id="deviceready">
+            <div class="forms-container">
+                <div class="signin-signup">
+                    <form  class="sign-in-form">
+                  <p style="color: black; text-align: center;">Has click en cualquier imagen para comprar</p>
+                  <div class="backgroundHome" style="width: 60%;">
+                    <h2 style="color:black">Destacado</h2>
+                    <p style="color:black">
+                      Pollo rostizado 1 x $100!                
+                    </p>
+                <img src="../img/pollo peneje.png" onclick="comprarPollo()" class="imageHomeComprar" alt="">
+                </div>
+                <div class="backgroundHome">
+                    <h2 style="color:black">Oferta</h2>
+                    <p style="color:black">
+                     Orden alitas 5 x $50               
+                    </p>
+                <img src="../img/ordenAlitas.png" onclick="comprarAlitas()" class="imageHomeComprar" alt="">
+                </div>
+                
+                
+              </form>
+              <form action="" class="sign-up-form">
+                <p style="color: black; text-align: center;">Has click en cualquier imagen para comprar</p>
+                <div class="backgroundHome" style="width: 60%;">
+                    <h2 style="color:black">Acompañante</h2>
+                    <p style="color:black">
+                      Orden de papas $30              
+                    </p>
+                <img src="../img/papas.png" onclick="comprarPapas()" style="width: 70%;" class="imageHomeComprar" alt="">
+                </div>
+                <div class="backgroundHome">
+                    <h2 style="color:black">Bebidas</h2>
+                    <p style="color:black">
+                     Refresco a $20       
+                    </p>
+                <img src="../img/refresco.png" onclick="comprarRefresco()" style="width: 70%;" class="imageHomeComprar" alt="">
+                
+                </div>
+                
+              </form>
+            </div>
+          </div>
+    
+          <div class="panels-container">
+            <div class="panel left-panel">
+              
+                <div class="content">
+                    <h3 class="textoo">Que productos tenemos?</h3>
+                    <p class="textoo">
+                      Dales un vistazo!
+                    </p>
+                    <button class="btn transparent" id="sign-up-btn">
+                        Ver más productos
+                      </button>
+                  <img src="../img/alitas.png" class="imageHome" alt="">
+                
+              </div>
+              
+            </div>
+            <div class="panel right-panel">
+              <div class="content">
+                <h3 class="textoo">Volver a ofertas</h3>
+                <p class="textoo"> 
+                 Recuerda que puedes encontrarnos en #contacto
+                </p>
+                <img src="../img/alitasjiji.png" class="imageHome" alt="">
+                <button  class="btn transparent" id="sign-in-btn">
+                 volver
+                </button>
+              </div>
+              <img src="img/alitas caja.png" class="image" alt="" />
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-section about">
+              <h2>&copy; 2023 Alitas Pepis. All Rights Reserved.</h2>
+          </div>
+              <div class="footer-section social-media">
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+      
+      </footer>
+      <script src="../js/sesioncheck.js"></script>
+      <script src="../js/compras.js"></script>
+     <script src="../cordova.js"></script>
+        <script src="../js/index.js"></script>
+      </body>
+</html>
